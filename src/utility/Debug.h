@@ -18,7 +18,7 @@
 
 #ifndef USE_DEBUG
 	#define USE_DEBUG 1
-endif
+#endif
 
 #if USE_DEBUG
 	#define Debug(__info) Serial.print(__info)
